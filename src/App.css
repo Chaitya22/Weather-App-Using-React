@@ -1,38 +1,21 @@
-.App {
-  text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	font-family: 'montseratt', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+	background-image: url("https://4.bp.blogspot.com/-8iT_knywI6Q/XTFp8_0ZyaI/AAAAAAAAIkw/5EYYTTjPcrkqwup6PuncyZ8Gj_g4ck09ACKgBGAs/w914-h514-p-k-no-nu/sunrise-minimalist-digital-art-mountain-landscape-uhdpaper.com-8K-51-wp.thumbnail.jpg");
+	background-size: cover;
+	background-position: bottom;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+	min-height: 100vh;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+	padding: 25px;
 }
